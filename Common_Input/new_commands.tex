@@ -1,0 +1,90 @@
+% USE PACKAGE ========
+\usepackage{hyperref}
+
+
+
+
+
+
+% NEW COMMANDS
+% ---- ALPHABETH
+\def\BB{\mathbb B}
+\def\CC{\mathbb C} %la C dei complessi, le altre sono simili
+\def\DD{\mathbb D}
+\def\EE{\mathbb E}
+\def\HH{\mathbb H}
+\def\II{\mathbb I}
+\def\NN{\mathbb N}
+\def\PP{\mathbb P}
+\def\QQ{\mathbb Q}
+\def\RR{\mathbb R}
+\def\Sphere{\mathbb S}
+\def\ZZ{\mathbb Z}
+\def\ie{\textit{i.e. }}
+\def\iff{\textit{iff }}
+\def\eg{\textit{e.g. }}
+\def\wrt{\textit{w.r.t. }}
+\def\ER{Erd\H{o}s-R\`enyi }
+\def\barabasi{A.-L. Barab\'{a}si }
+\def\NE{N.E.}
+%==========================LA TILDE ====================
+%  - - - - - - - - - - - - - - - - \~{} OPPURE \sim - - - - - - - - - - - - - - 
+% =====================================================
+
+
+% MATH COMMANDS
+\def\void{\varnothing}
+\def\sst{\ \: | \ \:} % sta per "set such that", la linea verticale, con un po' di spazio.
+\def\vect{\Vectorarrow}
+\newcommand{\df}[2]{\dfrac{#1}{#2}}
+
+% Equation
+\def\be{\begin{equation}}
+\def\ee{\end{equation}}
+
+% NEW THEORME STYLE
+%\newtheoremstyle{definizione}{\topsep}{\topsep}
+%{\normalfont}{}{\bf}{{\normalfont.}}{.5em}{}
+%\newtheoremstyle{teorema}{\topsep}{\topsep}
+%{\slshape}{}{\bf}{{\normalfont}}{.5em}{ } %non sta funzionando col frame.
+%\theoremstyle{teorema}
+\newtheorem{teo}{\namefont{Theorem}}[chapter]
+\newtheorem{lem}[teo]{\namefont{Lemma}}
+\newtheorem{prop}[teo]{\namefont{Proposition}}
+\newtheorem{cor}[teo]{\namefont{Corollary}}
+%\theoremstyle{definizione}
+\newtheorem{dfnt}[teo]{\namefont{Definition}}
+\newtheorem{obs}[teo]{\namefont{Observation}}
+\newtheorem{ex}[teo]{\namefont{Example}}
+\newtheorem{lgnd}[teo]{\namefont{Legenda}}
+\newtheorem{rmk}[teo]{\namefont{Remark}}
+
+
+
+\newcommand{\frontpage}[3]
+		{
+		\begin{titlepage}
+		\begin{center}
+			{{\Large{\textsc{University of Turin}}}}\\[15pt]
+				\rule[0.1cm]{\textwidth}{0.1mm}
+				\rule[0.5cm]{\textwidth}{0.6mm}
+				{\small{\bf Master Degree in Stochastics and Data Science}}
+		\end{center}
+		\vspace{10mm}
+		\begin{center}
+			{\LARGE{\bf #1}}\\
+			\vspace{3mm}
+			\vspace{12mm} {\large{\bf Author: \\ Baratelli Enrico}}
+
+			\vspace{12mm}
+			\vspace{3mm}
+			\vspace{12mm} {\large{\bf Teacher: \\ Prof. #2}}
+		\end{center}
+		\vspace{12mm}
+		\hfill
+		\vspace{12mm}
+		\begin{center}
+			{\large{\bf Academic Year: #3}}
+		\end{center}
+	\end{titlepage}
+	}

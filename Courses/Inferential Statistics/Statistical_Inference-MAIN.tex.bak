@@ -1,0 +1,24 @@
+\documentclass[a4paper,11pt]{report}
+
+\usepackage[utf8]{inputenc}   
+
+
+% input common new definitions, usepackages
+\input{../../Common_Input/new_commands.tex}
+
+\begin{document}
+	\frontpage{Statistical Inference}{Stefano Favaro}{2020-2021}
+	\tableofcontents
+		
+	\chapter*{Review from past courses}
+	
+	In this chapter we review some basic notions, that should be taken as already known from previous courses on Probability, Statistics and Analysis.
+	
+	\section{Lec: 22-09-2020}
+%		\input{/Chapter_0_INTRO/Lec_22-09-2020.tex}
+		\include{Lec_22-09-2020.tex}
+		
+	
+		
+		
+\end{document}

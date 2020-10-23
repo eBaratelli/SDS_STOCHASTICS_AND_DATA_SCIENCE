@@ -1,0 +1,43 @@
+% EMPTY TEMPLATE
+
+\documentclass[11pt,a4paper]{report}  
+	
+\usepackage[utf8]{inputenc}   
+
+
+% input common new definitions, usepackages
+\input{new_commands.tex}
+
+\begin{document}
+	\begin{titlepage}
+		\begin{comment}
+		\begin{center}
+			{{\Large{\textsc{University of Turin}}}}\\[15pt]
+				\rule[0.1cm]{\textwidth}{0.1mm}
+				\rule[0.5cm]{\textwidth}{0.6mm}
+			{\small{\bf Master Degree in Stochastics and Data Science}}
+		\end{center}
+		\vspace{10mm}
+		\begin{center}
+			{\LARGE{\bf \\ }}\\
+				\vspace{3mm}
+				\vspace{12mm} {\large{\bf Candidate: \\ Baratelli Enrico}}
+
+				\vspace{12mm}
+				\vspace{3mm}
+				\vspace{12mm} {\large{\bf Teacher: \\ Prof. }}
+		\end{center}
+		\vspace{12mm}
+		\hfill
+		\vspace{12mm}
+		\begin{center}
+			{\large{\bf Anno Accademico 2020-2021}}
+		\end{center}
+		\end{comment}
+		
+\end{titlepage}
+
+
+
+
+\end{document}
