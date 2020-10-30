@@ -1,0 +1,3 @@
+[submodule "xeboiboites"]
+	path = xeboiboites
+	url = https://github.com/alexisflesch/xeboiboites.git
